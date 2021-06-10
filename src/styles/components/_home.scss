@@ -1,0 +1,32 @@
+.home {
+  min-height: 100vh;
+  margin: 0 3rem;
+  display: flex;
+  align-items: center;
+  .nothing-to-see-card {
+    @extend .u-position-center;
+    padding: 4rem;
+  }
+
+  &__dashboard {
+    &__title {
+      margin-bottom: 5rem;
+      font-size: 10rem;
+      text-transform: uppercase;
+      letter-spacing: 2rem;
+      &--1 {
+        font-family: $font-family-broad;
+      }
+      &--2 {
+        font-family: $font-family-broad_outlined;
+      }
+
+    }
+
+    &__app-gallery {
+      display: grid;
+      grid-template-columns: repeat(4, 350px);
+      grid-column-gap: 25px;
+    }
+  }
+}

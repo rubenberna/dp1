@@ -1,0 +1,18 @@
+.u-hide {
+  display: none;
+}
+
+.u-position-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.u-box-shadow {
+  box-shadow: 0 .5rem .5rem -.3rem rgba(0, 0, 0, 0.2), 0 .8rem 1rem 1px rgba(0, 0, 0, 0.14), 0px .3rem 1.4rem 2px rgba(0, 0, 0, 0.12);
+}
+
+.u-border-radius {
+  border-radius: .4rem;
+}

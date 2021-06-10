@@ -1,0 +1,39 @@
+.sidenav {
+  height: 100%;
+  width: 16rem;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: $dark-blue;
+  color: $white;
+  overflow-x: hidden;
+  padding-top: 2rem;
+  text-align: center;
+
+  &__title {
+    font-family: VolvoBradPro, sans-serif;
+    font-size: 4rem;
+    color: #FFFFFF;
+  }
+
+  &__sub-title {
+    font-size: $font-large;
+    margin-bottom: 2rem;
+  }
+
+  &__icon {
+    width: 4rem;
+    margin: 0 auto;
+    padding: .5rem 0;
+    transition: .5s all ease;
+    &:hover {
+      transform: translateX(1rem);
+    }
+  }
+}
+
+@media screen and (max-height: 45rem) {
+  .sidenav {padding-top: 1.5rem;}
+  .sidenav a {font-size: 1.8rem;}
+}
